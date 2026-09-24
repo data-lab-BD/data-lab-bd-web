@@ -1,0 +1,13 @@
+{
+    "name": "data-lab-bd-web",
+    "private": true,
+    "scripts": {
+        "build": "tailwindcss -i src/styles.css -o assets/styles.css --minify",
+        "watch": "tailwindcss -i src/styles.css -o assets/styles.css --watch",
+        "serve": "python3 -m http.server 8000"
+    },
+    "devDependencies": {
+        "@tailwindcss/cli": "^4.1.18",
+        "tailwindcss": "^4.1.18"
+    }
+}

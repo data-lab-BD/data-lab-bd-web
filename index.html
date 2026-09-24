@@ -1,0 +1,593 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Data Lab - Transform Your Business with Data Engineering Solutions</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Transform your business with Data Lab&#039;s data engineering and analytics solutions.">
+    <meta name="keywords" content="data engineering, data pipelines, analytics, ETL, data solutions">
+    <link rel="canonical" href="https://datalabbd.com/">
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Data Lab">
+    <meta property="og:title" content="Data Lab - Transform Your Business with Data Engineering Solutions">
+    <meta property="og:description" content="Transform your business with Data Lab&#039;s data engineering and analytics solutions.">
+    <meta property="og:url" content="https://datalabbd.com/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Data Lab - Transform Your Business with Data Engineering Solutions">
+    <meta name="twitter:description" content="Transform your business with Data Lab&#039;s data engineering and analytics solutions.">
+
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700|jetbrains-mono:400,500,600,700" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/assets/main.js" defer></script>
+
+</head>
+<body class="antialiased">
+    <!-- Navigation -->
+    <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="/" class="flex items-center">
+                        <span class="text-2xl font-mono font-bold"><span class="text-black">Data</span><span class="text-[rgb(59,130,246)]">Lab</span></span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="/" class="text-slate-gray hover:text-charcoal transition text-charcoal font-semibold">
+                        Home
+                    </a>
+                    <div class="relative" data-dropdown>
+                        <button type="button" aria-haspopup="true" aria-expanded="false" data-dropdown-toggle class="text-slate-gray hover:text-charcoal transition flex items-center">
+                            Services
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2 z-50" data-dropdown-menu hidden>
+                            <a href="/services/starting/" class="block px-4 py-2 text-sm text-slate-gray hover:bg-light-gray">Starting with Data</a>
+                            <a href="/services/scaling/" class="block px-4 py-2 text-sm text-slate-gray hover:bg-light-gray">Scaling Operations</a>
+                            <a href="/services/optimizing/" class="block px-4 py-2 text-sm text-slate-gray hover:bg-light-gray">Optimizing & Governing</a>
+                        </div>
+                    </div>
+                    <a href="/solutions/" class="text-slate-gray hover:text-charcoal transition ">
+                        Solutions
+                    </a>
+                    <a href="/about/" class="text-slate-gray hover:text-charcoal transition ">
+                        About
+                    </a>
+                    <a href="/contact/" class="btn-primary">
+                        Contact Us
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button type="button" aria-label="Toggle menu" aria-controls="mobile-menu" aria-expanded="false" data-mobile-toggle class="text-slate-gray hover:text-charcoal">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path data-icon-open stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                            <path data-icon-close stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" style="display: none;"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden border-t border-gray-200" hidden>
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="/" class="block px-3 py-2 text-slate-gray hover:bg-light-gray rounded">Home</a>
+                <a href="/services/starting/" class="block px-3 py-2 text-slate-gray hover:bg-light-gray rounded">Starting with Data</a>
+                <a href="/services/scaling/" class="block px-3 py-2 text-slate-gray hover:bg-light-gray rounded">Scaling Operations</a>
+                <a href="/services/optimizing/" class="block px-3 py-2 text-slate-gray hover:bg-light-gray rounded">Optimizing & Governing</a>
+                <a href="/solutions/" class="block px-3 py-2 text-slate-gray hover:bg-light-gray rounded">Solutions</a>
+                <a href="/about/" class="block px-3 py-2 text-slate-gray hover:bg-light-gray rounded">About</a>
+                <a href="/contact/" class="block px-3 py-2 bg-electric-blue text-white rounded text-center">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+<section class="relative data-flow-bg section-padding">
+    <div class="container mx-auto">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="mb-6 leading-tight text-4xl md:text-5xl lg:text-6xl font-bold">
+                Transform Your Business with <span class="bg-gradient-to-r from-electric-blue to-blue-600 bg-clip-text text-transparent">Data Engineering</span> Solutions
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-600 mb-10 leading-relaxed">
+                Unlock the potential of your data with robust engineering and analytics for intelligent business decision-making
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/contact/" class="btn-primary">
+                    Schedule Consultation
+                </a>
+                <a href="#journey-navigator" class="btn-secondary">
+                    Explore Services
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Journey Navigator Section -->
+<section id="journey-navigator" class="section-padding bg-light-gray">
+    <div class="container mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="mb-4 md:text-4xl">Where are you in your data journey?</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                We meet you where you are and guide you to where you need to be
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="card group hover:border-electric-blue cursor-pointer transition-all">
+                <a href="/services/starting/">
+                    <div class="mb-6">
+                        <div class="flex items-center mb-3">
+                            <div class="w-16 h-16 bg-electric-blue-10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0 group-hover:bg-electric-blue/20 transition-all">
+                                                                <svg class="w-8 h-8 icon-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
+</svg>                            </div>
+                            <h3 class="group-hover:icon-blue transition-colors text-xl font-bold">Starting with Data</h3>
+                        </div>
+                        <div>
+                            <p class="text-gray-600">Foundation and strategy for organizations beginning their data journey</p>
+                        </div>
+                    </div>
+
+                                        <div class="border-t border-gray-200 pt-6">
+                        <p class="text-sm font-semibold text-gray-500 mb-3">KEY SERVICES:</p>
+                        <ul class="space-y-2">
+                                                        <li class="flex items-start">
+                                <svg class="w-5 h-5 icon-blue mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Data Analytics Strategy</span>
+                            </li>
+                                                        <li class="flex items-start">
+                                <svg class="w-5 h-5 icon-blue mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Initial Data Engineering Setup</span>
+                            </li>
+                                                        <li class="flex items-start">
+                                <svg class="w-5 h-5 icon-blue mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Database Foundation</span>
+                            </li>
+                                                    </ul>
+                    </div>
+
+                    <div class="mt-6">
+                        <span class="inline-flex items-center icon-blue font-semibold group-hover:underline">
+                            Explore Starting with Data
+                            <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
+            </div>
+                        <div class="card group hover:border-electric-blue cursor-pointer transition-all">
+                <a href="/services/scaling/">
+                    <div class="mb-6">
+                        <div class="flex items-center mb-3">
+                            <div class="w-16 h-16 bg-electric-blue-10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0 group-hover:bg-electric-blue/20 transition-all">
+                                                                <svg class="w-8 h-8 icon-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 18 9 11.25l4.306 4.306a11.95 11.95 0 0 1 5.814-5.518l2.74-1.22m0 0-5.94-2.281m5.94 2.28-2.28 5.941"/>
+</svg>                            </div>
+                            <h3 class="group-hover:icon-blue transition-colors text-xl font-bold">Scaling Operations</h3>
+                        </div>
+                        <div>
+                            <p class="text-gray-600">Advanced engineering and migration for growing data needs</p>
+                        </div>
+                    </div>
+
+                                        <div class="border-t border-gray-200 pt-6">
+                        <p class="text-sm font-semibold text-gray-500 mb-3">KEY SERVICES:</p>
+                        <ul class="space-y-2">
+                                                        <li class="flex items-start">
+                                <svg class="w-5 h-5 icon-blue mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Advanced Data Engineering</span>
+                            </li>
+                                                        <li class="flex items-start">
+                                <svg class="w-5 h-5 icon-blue mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Cloud Migration</span>
+                            </li>
+                                                        <li class="flex items-start">
+                                <svg class="w-5 h-5 icon-blue mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Data Infrastructure &amp; DevOps</span>
+                            </li>
+                                                    </ul>
+                    </div>
+
+                    <div class="mt-6">
+                        <span class="inline-flex items-center icon-blue font-semibold group-hover:underline">
+                            Explore Scaling Operations
+                            <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
+            </div>
+                        <div class="card group hover:border-electric-blue cursor-pointer transition-all">
+                <a href="/services/optimizing/">
+                    <div class="mb-6">
+                        <div class="flex items-center mb-3">
+                            <div class="w-16 h-16 bg-electric-blue-10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0 group-hover:bg-electric-blue/20 transition-all">
+                                                                <svg class="w-8 h-8 icon-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="m3.75 13.5 10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z"/>
+</svg>                            </div>
+                            <h3 class="group-hover:icon-blue transition-colors text-xl font-bold">Optimizing &amp; Governing</h3>
+                        </div>
+                        <div>
+                            <p class="text-gray-600">Security, governance, and cost optimization for mature data operations</p>
+                        </div>
+                    </div>
+
+                                        <div class="border-t border-gray-200 pt-6">
+                        <p class="text-sm font-semibold text-gray-500 mb-3">KEY SERVICES:</p>
+                        <ul class="space-y-2">
+                                                        <li class="flex items-start">
+                                <svg class="w-5 h-5 icon-blue mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Data Analytics Solutions</span>
+                            </li>
+                                                        <li class="flex items-start">
+                                <svg class="w-5 h-5 icon-blue mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                                <span class="text-gray-700">Data Security &amp; Governance</span>
+                            </li>
+                                                        <li class="flex items-start">
+                                <svg class="w-5 h-5 icon-blue mr-2 mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                                </svg>
+                                <span class="text-gray-700">FinOps &amp; Cost Optimization</span>
+                            </li>
+                                                    </ul>
+                    </div>
+
+                    <div class="mt-6">
+                        <span class="inline-flex items-center icon-blue font-semibold group-hover:underline">
+                            Explore Optimizing &amp; Governing
+                            <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </span>
+                    </div>
+                </a>
+            </div>
+                    </div>
+    </div>
+</section>
+
+<!-- Service Highlights -->
+<section class="section-padding">
+    <div class="container mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="mb-4 md:text-4xl">Comprehensive Data Solutions</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                End-to-end expertise across the entire data lifecycle
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                        <div class="card group hover:shadow-lg transition-all">
+                <div class="flex items-center mb-3">
+                    <div class="w-12 h-12 bg-electric-blue-10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0 group-hover:bg-electric-blue/20 transition-all">
+                                                <svg class="w-6 h-6 icon-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 6a7.5 7.5 0 1 0 7.5 7.5h-7.5V6Z"/>
+  <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 10.5H21A7.5 7.5 0 0 0 13.5 3v7.5Z"/>
+</svg>                    </div>
+                    <h4 class="text-lg font-semibold">Data Analytics Strategy</h4>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Define your data vision and roadmap</p>
+                </div>
+            </div>
+                        <div class="card group hover:shadow-lg transition-all">
+                <div class="flex items-center mb-3">
+                    <div class="w-12 h-12 bg-electric-blue-10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0 group-hover:bg-electric-blue/20 transition-all">
+                                                <svg class="w-6 h-6 icon-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9.594 3.94c.09-.542.56-.94 1.11-.94h2.593c.55 0 1.02.398 1.11.94l.213 1.281c.063.374.313.686.645.87.074.04.147.083.22.127.325.196.72.257 1.075.124l1.217-.456a1.125 1.125 0 0 1 1.37.49l1.296 2.247a1.125 1.125 0 0 1-.26 1.431l-1.003.827c-.293.241-.438.613-.43.992a7.723 7.723 0 0 1 0 .255c-.008.378.137.75.43.991l1.004.827c.424.35.534.955.26 1.43l-1.298 2.247a1.125 1.125 0 0 1-1.369.491l-1.217-.456c-.355-.133-.75-.072-1.076.124a6.47 6.47 0 0 1-.22.128c-.331.183-.581.495-.644.869l-.213 1.281c-.09.543-.56.94-1.11.94h-2.594c-.55 0-1.019-.398-1.11-.94l-.213-1.281c-.062-.374-.312-.686-.644-.87a6.52 6.52 0 0 1-.22-.127c-.325-.196-.72-.257-1.076-.124l-1.217.456a1.125 1.125 0 0 1-1.369-.49l-1.297-2.247a1.125 1.125 0 0 1 .26-1.431l1.004-.827c.292-.24.437-.613.43-.991a6.932 6.932 0 0 1 0-.255c.007-.38-.138-.751-.43-.992l-1.004-.827a1.125 1.125 0 0 1-.26-1.43l1.297-2.247a1.125 1.125 0 0 1 1.37-.491l1.216.456c.356.133.751.072 1.076-.124.072-.044.146-.086.22-.128.332-.183.582-.495.644-.869l.214-1.28Z"/>
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"/>
+</svg>                    </div>
+                    <h4 class="text-lg font-semibold">Advanced Data Engineering</h4>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Scale your data pipelines and infrastructure</p>
+                </div>
+            </div>
+                        <div class="card group hover:shadow-lg transition-all">
+                <div class="flex items-center mb-3">
+                    <div class="w-12 h-12 bg-electric-blue-10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0 group-hover:bg-electric-blue/20 transition-all">
+                                                <svg class="w-6 h-6 icon-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0 1 18 16.5h-2.25m-7.5 0h7.5m-7.5 0-1 3m8.5-3 1 3m0 0 .5 1.5m-.5-1.5h-9.5m0 0-.5 1.5M9 11.25v1.5M12 9v3.75m3-6v6"/>
+</svg>                    </div>
+                    <h4 class="text-lg font-semibold">Data Analytics Solutions</h4>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Transform data into actionable insights</p>
+                </div>
+            </div>
+                        <div class="card group hover:shadow-lg transition-all">
+                <div class="flex items-center mb-3">
+                    <div class="w-12 h-12 bg-electric-blue-10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0 group-hover:bg-electric-blue/20 transition-all">
+                                                <svg class="w-6 h-6 icon-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17 17.25 21A2.652 2.652 0 0 0 21 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 1 1-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.743-.14a4.5 4.5 0 0 0 4.486-6.336l-3.276 3.277a3.004 3.004 0 0 1-2.25-2.25l3.276-3.276a4.5 4.5 0 0 0-6.336 4.486c.091 1.076-.071 2.264-.904 2.95l-.102.085m-1.745 1.437L5.909 7.5H4.5L2.25 3.75l1.5-1.5L7.5 4.5v1.409l4.26 4.26m-1.745 1.437 1.745-1.437m6.615 8.206L15.75 15.75M4.867 19.125h.008v.008h-.008v-.008Z"/>
+</svg>                    </div>
+                    <h4 class="text-lg font-semibold">Initial Data Engineering Setup</h4>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Build your first data pipelines and infrastructure</p>
+                </div>
+            </div>
+                        <div class="card group hover:shadow-lg transition-all">
+                <div class="flex items-center mb-3">
+                    <div class="w-12 h-12 bg-electric-blue-10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0 group-hover:bg-electric-blue/20 transition-all">
+                                                <svg class="w-6 h-6 icon-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 16.5V9.75m0 0 3 3m-3-3-3 3M6.75 19.5a4.5 4.5 0 0 1-1.41-8.775 5.25 5.25 0 0 1 10.233-2.33 3 3 0 0 1 3.758 3.848A3.752 3.752 0 0 1 18 19.5H6.75Z"/>
+</svg>                    </div>
+                    <h4 class="text-lg font-semibold">Cloud Migration</h4>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Migrate data infrastructure to the cloud</p>
+                </div>
+            </div>
+                        <div class="card group hover:shadow-lg transition-all">
+                <div class="flex items-center mb-3">
+                    <div class="w-12 h-12 bg-electric-blue-10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0 group-hover:bg-electric-blue/20 transition-all">
+                                                <svg class="w-6 h-6 icon-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75 11.25 15 15 9.75m-3-7.036A11.959 11.959 0 0 1 3.598 6 11.99 11.99 0 0 0 3 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285Z"/>
+</svg>                    </div>
+                    <h4 class="text-lg font-semibold">Data Security &amp; Governance</h4>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Implement comprehensive data governance</p>
+                </div>
+            </div>
+                        <div class="card group hover:shadow-lg transition-all">
+                <div class="flex items-center mb-3">
+                    <div class="w-12 h-12 bg-electric-blue-10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0 group-hover:bg-electric-blue/20 transition-all">
+                                                <svg class="w-6 h-6 icon-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 6.375c0 2.278-3.694 4.125-8.25 4.125S3.75 8.653 3.75 6.375m16.5 0c0-2.278-3.694-4.125-8.25-4.125S3.75 4.097 3.75 6.375m16.5 0v11.25c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125V6.375m16.5 0v3.75m-16.5-3.75v3.75m16.5 0v3.75C20.25 16.153 16.556 18 12 18s-8.25-1.847-8.25-4.125v-3.75m16.5 0c0 2.278-3.694 4.125-8.25 4.125s-8.25-1.847-8.25-4.125"/>
+</svg>                    </div>
+                    <h4 class="text-lg font-semibold">Database Foundation</h4>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Design and implement scalable database architecture</p>
+                </div>
+            </div>
+                        <div class="card group hover:shadow-lg transition-all">
+                <div class="flex items-center mb-3">
+                    <div class="w-12 h-12 bg-electric-blue-10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0 group-hover:bg-electric-blue/20 transition-all">
+                                                <svg class="w-6 h-6 icon-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M15.59 14.37a6 6 0 0 1-5.84 7.38v-4.8m5.84-2.58a14.98 14.98 0 0 0 6.16-12.12A14.98 14.98 0 0 0 9.631 8.41m5.96 5.96a14.926 14.926 0 0 1-5.841 2.58m-.119-8.54a6 6 0 0 0-7.381 5.84h4.8m2.581-5.84a14.927 14.927 0 0 0-2.58 5.84m2.699 2.7c-.103.021-.207.041-.311.06a15.09 15.09 0 0 1-2.448-2.448 14.9 14.9 0 0 1 .06-.312m-2.24 2.39a4.493 4.493 0 0 0-1.757 4.306 4.493 4.493 0 0 0 4.306-1.758M16.5 9a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0Z"/>
+</svg>                    </div>
+                    <h4 class="text-lg font-semibold">Data Infrastructure &amp; DevOps</h4>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Automate and optimize your data infrastructure</p>
+                </div>
+            </div>
+                        <div class="card group hover:shadow-lg transition-all">
+                <div class="flex items-center mb-3">
+                    <div class="w-12 h-12 bg-electric-blue-10 rounded-lg flex items-center justify-center mr-4 flex-shrink-0 group-hover:bg-electric-blue/20 transition-all">
+                                                <svg class="w-6 h-6 icon-blue" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" aria-hidden="true" data-slot="icon">
+  <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+</svg>                    </div>
+                    <h4 class="text-lg font-semibold">FinOps &amp; Cost Optimization</h4>
+                </div>
+                <div>
+                    <p class="text-sm text-gray-600">Optimize cloud data costs without compromising performance</p>
+                </div>
+            </div>
+                    </div>
+    </div>
+</section>
+
+<!-- Solutions Showcase -->
+<section class="section-padding bg-light-gray">
+    <div class="container mx-auto">
+        <div class="text-center mb-16">
+            <h2 class="mb-4 md:text-4xl">Proven Solutions</h2>
+            <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                Real-world examples of data transformation
+            </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                        <div class="card">
+                                <span class="inline-block px-3 py-1 bg-electric-blue-10 icon-blue text-sm font-semibold rounded-full mb-4">
+                    E-commerce
+                </span>
+
+                <h3 class="mb-4 text-xl font-bold">E-commerce Analytics Platform</h3>
+
+                <div class="mb-4">
+                    <p class="text-sm font-semibold text-gray-500 mb-2">CHALLENGE</p>
+                    <p class="text-gray-700">A growing e-commerce company struggled with fragmented data across multiple systems, making it impossible to get a unified view of customer behavior a...</p>
+                </div>
+
+                <div class="mb-4">
+                    <p class="text-sm font-semibold text-gray-500 mb-2">SOLUTION</p>
+                    <p class="text-gray-700">We built a centralized data warehouse on Snowflake, implemented real-time data pipelines using Kafka and Airflow, and created interactive dashboards i...</p>
+                </div>
+
+                                <div class="border-t border-gray-200 pt-4 mt-4">
+                    <p class="text-sm font-semibold text-green-600">✓ 40% faster decision-making, 25% increase in marketing ROI</p>
+                </div>
+                            </div>
+                        <div class="card">
+                                <span class="inline-block px-3 py-1 bg-electric-blue-10 icon-blue text-sm font-semibold rounded-full mb-4">
+                    Healthcare
+                </span>
+
+                <h3 class="mb-4 text-xl font-bold">Healthcare Data Lake Migration</h3>
+
+                <div class="mb-4">
+                    <p class="text-sm font-semibold text-gray-500 mb-2">CHALLENGE</p>
+                    <p class="text-gray-700">A healthcare provider needed to migrate their legacy on-premises data infrastructure to the cloud while ensuring HIPAA compliance and zero downtime.</p>
+                </div>
+
+                <div class="mb-4">
+                    <p class="text-sm font-semibold text-gray-500 mb-2">SOLUTION</p>
+                    <p class="text-gray-700">Executed a phased migration to AWS, implementing a HIPAA-compliant data lake architecture with comprehensive encryption, access controls, and audit lo...</p>
+                </div>
+
+                                <div class="border-t border-gray-200 pt-4 mt-4">
+                    <p class="text-sm font-semibold text-green-600">✓ 60% reduction in infrastructure costs, 99.99% uptime during migration</p>
+                </div>
+                            </div>
+                        <div class="card">
+                                <span class="inline-block px-3 py-1 bg-electric-blue-10 icon-blue text-sm font-semibold rounded-full mb-4">
+                    Financial Services
+                </span>
+
+                <h3 class="mb-4 text-xl font-bold">Financial Services Real-Time Analytics</h3>
+
+                <div class="mb-4">
+                    <p class="text-sm font-semibold text-gray-500 mb-2">CHALLENGE</p>
+                    <p class="text-gray-700">A fintech company required real-time fraud detection and transaction monitoring across millions of daily transactions.</p>
+                </div>
+
+                <div class="mb-4">
+                    <p class="text-sm font-semibold text-gray-500 mb-2">SOLUTION</p>
+                    <p class="text-gray-700">Built a real-time streaming architecture using Kafka and Apache Flink, integrated machine learning models for fraud detection, and created operational...</p>
+                </div>
+
+                                <div class="border-t border-gray-200 pt-4 mt-4">
+                    <p class="text-sm font-semibold text-green-600">✓ Fraud detection within 100ms, prevented $2M in fraudulent transactions</p>
+                </div>
+                            </div>
+                    </div>
+
+        <div class="text-center mt-12">
+            <a href="/solutions/" class="btn-secondary">
+                View All Solutions
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Technology Stack -->
+<section class="section-padding">
+    <div class="container mx-auto">
+        <div class="text-center mb-12">
+            <h2 class="mb-4 md:text-4xl">Modern Data Platforms</h2>
+            <p class="text-lg text-gray-600">
+                Expertise across leading cloud and data technologies
+            </p>
+        </div>
+
+        <div class="flex flex-wrap justify-center items-center gap-12 opacity-60">
+            <div class="text-4xl font-bold text-gray-700">AWS</div>
+            <div class="text-4xl font-bold text-gray-700">Azure</div>
+            <div class="text-4xl font-bold text-gray-700">GCP</div>
+            <div class="text-4xl font-bold text-gray-700">Snowflake</div>
+            <div class="text-4xl font-bold text-gray-700">Databricks</div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="py-16 md:py-20 bg-charcoal text-white">
+    <div class="container mx-auto">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="mb-6 text-white md:text-4xl">Ready to transform your data operations?</h2>
+            <p class="text-xl text-gray-300 mb-10">
+                Let's discuss how we can help you unlock the full potential of your data
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="/contact/" class="btn-primary">
+                    Get Started
+                </a>
+                <a href="/about/" class="px-8 py-3 border-2 border-white text-white bg-transparent rounded-lg font-semibold hover:bg-white hover:text-charcoal transition-all duration-200">
+                    Learn More
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-charcoal text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- About -->
+                <div>
+                    <h3 class="font-mono font-bold text-xl mb-4">
+                        <span class="text-white">Data</span><span class="text-[rgb(59,130,246)]">Lab</span>
+                    </h3>
+                    <p class="text-gray-400 text-sm">
+                        Transforming businesses through expert data engineering solutions.
+                    </p>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="/services/starting/" class="hover:text-white transition">Starting with Data</a></li>
+                        <li><a href="/services/scaling/" class="hover:text-white transition">Scaling Operations</a></li>
+                        <li><a href="/services/optimizing/" class="hover:text-white transition">Optimizing & Governing</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="/about/" class="hover:text-white transition">About Us</a></li>
+                        <li><a href="/solutions/" class="hover:text-white transition">Solutions</a></li>
+                        <li><a href="/contact/" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="font-semibold mb-4">Get in Touch</h4>
+                    <p class="text-sm text-gray-400 mb-2">
+                        Ready to transform your data?
+                    </p>
+                    <a href="/contact/" class="btn-primary inline-block">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; <span data-year>2026</span> Data Lab. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

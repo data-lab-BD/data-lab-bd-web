@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://datalabbd.com/sitemap.xml

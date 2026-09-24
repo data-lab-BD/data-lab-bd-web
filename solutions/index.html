@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Solutions - Data Lab</title>
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Transform your business with expert data engineering solutions. From data pipelines to analytics, we help you harness the power of data.">
+    <meta name="keywords" content="data engineering, data pipelines, analytics, ETL, data solutions">
+    <link rel="canonical" href="https://datalabbd.com/solutions/">
+    <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Data Lab">
+    <meta property="og:title" content="Solutions - Data Lab">
+    <meta property="og:description" content="Transform your business with expert data engineering solutions. From data pipelines to analytics, we help you harness the power of data.">
+    <meta property="og:url" content="https://datalabbd.com/solutions/">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Solutions - Data Lab">
+    <meta name="twitter:description" content="Transform your business with expert data engineering solutions. From data pipelines to analytics, we help you harness the power of data.">
+
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=inter:400,500,600,700|jetbrains-mono:400,500,600,700" rel="stylesheet" />
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="/assets/styles.css">
+    <script src="/assets/main.js" defer></script>
+
+</head>
+<body class="antialiased">
+    <!-- Navigation -->
+    <nav class="bg-white border-b border-gray-200 sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <a href="/" class="flex items-center">
+                        <span class="text-2xl font-mono font-bold"><span class="text-black">Data</span><span class="text-[rgb(59,130,246)]">Lab</span></span>
+                    </a>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="/" class="text-slate-gray hover:text-charcoal transition ">
+                        Home
+                    </a>
+                    <div class="relative" data-dropdown>
+                        <button type="button" aria-haspopup="true" aria-expanded="false" data-dropdown-toggle class="text-slate-gray hover:text-charcoal transition flex items-center">
+                            Services
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                            </svg>
+                        </button>
+                        <div class="absolute left-0 mt-2 w-48 bg-white rounded-lg shadow-lg py-2 z-50" data-dropdown-menu hidden>
+                            <a href="/services/starting/" class="block px-4 py-2 text-sm text-slate-gray hover:bg-light-gray">Starting with Data</a>
+                            <a href="/services/scaling/" class="block px-4 py-2 text-sm text-slate-gray hover:bg-light-gray">Scaling Operations</a>
+                            <a href="/services/optimizing/" class="block px-4 py-2 text-sm text-slate-gray hover:bg-light-gray">Optimizing & Governing</a>
+                        </div>
+                    </div>
+                    <a href="/solutions/" class="text-slate-gray hover:text-charcoal transition text-charcoal font-semibold">
+                        Solutions
+                    </a>
+                    <a href="/about/" class="text-slate-gray hover:text-charcoal transition ">
+                        About
+                    </a>
+                    <a href="/contact/" class="btn-primary">
+                        Contact Us
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="md:hidden flex items-center">
+                    <button type="button" aria-label="Toggle menu" aria-controls="mobile-menu" aria-expanded="false" data-mobile-toggle class="text-slate-gray hover:text-charcoal">
+                        <svg class="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path data-icon-open stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                            <path data-icon-close stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" style="display: none;"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="md:hidden border-t border-gray-200" hidden>
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="/" class="block px-3 py-2 text-slate-gray hover:bg-light-gray rounded">Home</a>
+                <a href="/services/starting/" class="block px-3 py-2 text-slate-gray hover:bg-light-gray rounded">Starting with Data</a>
+                <a href="/services/scaling/" class="block px-3 py-2 text-slate-gray hover:bg-light-gray rounded">Scaling Operations</a>
+                <a href="/services/optimizing/" class="block px-3 py-2 text-slate-gray hover:bg-light-gray rounded">Optimizing & Governing</a>
+                <a href="/solutions/" class="block px-3 py-2 text-slate-gray hover:bg-light-gray rounded">Solutions</a>
+                <a href="/about/" class="block px-3 py-2 text-slate-gray hover:bg-light-gray rounded">About</a>
+                <a href="/contact/" class="block px-3 py-2 bg-electric-blue text-white rounded text-center">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Header -->
+<section class="relative data-flow-bg py-16 md:py-24 bg-light-gray">
+    <div class="container mx-auto">
+        <div class="max-w-4xl mx-auto text-center">
+            <h1 class="text-4xl md:text-5xl mb-6">Proven Solutions</h1>
+            <p class="text-xl text-gray-700 leading-relaxed">
+                Real-world examples of how we've helped organizations transform their data operations
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- Filters (if industries exist) -->
+<section class="py-8 border-b border-gray-200">
+    <div class="container mx-auto">
+        <div class="flex flex-wrap items-center justify-center gap-3">
+            <span class="text-sm font-semibold text-gray-600">Filter by Industry:</span>
+            <a
+                href="/solutions/"
+                data-filter=""
+                class="px-4 py-2 text-sm font-medium rounded-lg border border-gray-300 hover:border-electric-blue hover:text-electric-blue transition-colors border-electric-blue text-electric-blue"
+            >
+                All
+            </a>
+                        <a
+                href="/solutions/?industry=E-commerce"
+                data-filter="E-commerce"
+                class="px-4 py-2 text-sm font-medium rounded-lg border border-gray-300 hover:border-electric-blue hover:text-electric-blue transition-colors"
+            >
+                E-commerce
+            </a>
+                        <a
+                href="/solutions/?industry=Financial%20Services"
+                data-filter="Financial Services"
+                class="px-4 py-2 text-sm font-medium rounded-lg border border-gray-300 hover:border-electric-blue hover:text-electric-blue transition-colors"
+            >
+                Financial Services
+            </a>
+                        <a
+                href="/solutions/?industry=Healthcare"
+                data-filter="Healthcare"
+                class="px-4 py-2 text-sm font-medium rounded-lg border border-gray-300 hover:border-electric-blue hover:text-electric-blue transition-colors"
+            >
+                Healthcare
+            </a>
+                    </div>
+    </div>
+</section>
+
+<!-- Solutions Grid -->
+<section class="section-padding">
+    <div class="container mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div class="card" data-industry="E-commerce">
+                                <span class="inline-block px-3 py-1 bg-electric-blue-10 text-electric-blue text-sm font-semibold rounded-full mb-4">
+                    E-commerce
+                </span>
+
+                <h3 class="mb-4 text-xl">E-commerce Analytics Platform</h3>
+
+                <div class="mb-4 pb-4 border-b border-gray-200">
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Challenge</p>
+                    <p class="text-gray-700 text-sm">A growing e-commerce company struggled with fragmented data across multiple systems, making it impossible to get a unified view of customer behavior and business performance.</p>
+                </div>
+
+                <div class="mb-4 pb-4 border-b border-gray-200">
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Solution</p>
+                    <p class="text-gray-700 text-sm">We built a centralized data warehouse on Snowflake, implemented real-time data pipelines using Kafka and Airflow, and created interactive dashboards in Tableau for business intelligence.</p>
+                </div>
+
+                                <div class="mb-4">
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Outcome</p>
+                    <p class="text-sm font-semibold text-green-600">✓ 40% faster decision-making, 25% increase in marketing ROI</p>
+                </div>
+
+                                <div class="border-t border-gray-200 pt-4">
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">Technologies</p>
+                    <div class="flex flex-wrap gap-2">
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            Snowflake
+                        </span>
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            Kafka
+                        </span>
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            Airflow
+                        </span>
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            Tableau
+                        </span>
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            Python
+                        </span>
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            AWS
+                        </span>
+                                            </div>
+                </div>
+                            </div>
+                        <div class="card" data-industry="Healthcare">
+                                <span class="inline-block px-3 py-1 bg-electric-blue-10 text-electric-blue text-sm font-semibold rounded-full mb-4">
+                    Healthcare
+                </span>
+
+                <h3 class="mb-4 text-xl">Healthcare Data Lake Migration</h3>
+
+                <div class="mb-4 pb-4 border-b border-gray-200">
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Challenge</p>
+                    <p class="text-gray-700 text-sm">A healthcare provider needed to migrate their legacy on-premises data infrastructure to the cloud while ensuring HIPAA compliance and zero downtime.</p>
+                </div>
+
+                <div class="mb-4 pb-4 border-b border-gray-200">
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Solution</p>
+                    <p class="text-gray-700 text-sm">Executed a phased migration to AWS, implementing a HIPAA-compliant data lake architecture with comprehensive encryption, access controls, and audit logging.</p>
+                </div>
+
+                                <div class="mb-4">
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Outcome</p>
+                    <p class="text-sm font-semibold text-green-600">✓ 60% reduction in infrastructure costs, 99.99% uptime during migration</p>
+                </div>
+
+                                <div class="border-t border-gray-200 pt-4">
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">Technologies</p>
+                    <div class="flex flex-wrap gap-2">
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            AWS S3
+                        </span>
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            AWS Glue
+                        </span>
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            AWS Lake Formation
+                        </span>
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            Terraform
+                        </span>
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            Python
+                        </span>
+                                            </div>
+                </div>
+                            </div>
+                        <div class="card" data-industry="Financial Services">
+                                <span class="inline-block px-3 py-1 bg-electric-blue-10 text-electric-blue text-sm font-semibold rounded-full mb-4">
+                    Financial Services
+                </span>
+
+                <h3 class="mb-4 text-xl">Financial Services Real-Time Analytics</h3>
+
+                <div class="mb-4 pb-4 border-b border-gray-200">
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Challenge</p>
+                    <p class="text-gray-700 text-sm">A fintech company required real-time fraud detection and transaction monitoring across millions of daily transactions.</p>
+                </div>
+
+                <div class="mb-4 pb-4 border-b border-gray-200">
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Solution</p>
+                    <p class="text-gray-700 text-sm">Built a real-time streaming architecture using Kafka and Apache Flink, integrated machine learning models for fraud detection, and created operational dashboards for monitoring.</p>
+                </div>
+
+                                <div class="mb-4">
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Outcome</p>
+                    <p class="text-sm font-semibold text-green-600">✓ Fraud detection within 100ms, prevented $2M in fraudulent transactions</p>
+                </div>
+
+                                <div class="border-t border-gray-200 pt-4">
+                    <p class="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">Technologies</p>
+                    <div class="flex flex-wrap gap-2">
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            Kafka
+                        </span>
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            Apache Flink
+                        </span>
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            PostgreSQL
+                        </span>
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            Python
+                        </span>
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            scikit-learn
+                        </span>
+                                                <span class="px-2 py-1 bg-light-gray text-charcoal text-xs font-medium rounded">
+                            GCP
+                        </span>
+                                            </div>
+                </div>
+                            </div>
+                    </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="section-padding bg-charcoal text-white">
+    <div class="container mx-auto">
+        <div class="max-w-3xl mx-auto text-center">
+            <h2 class="mb-6 text-white">Have a similar challenge?</h2>
+            <p class="text-xl text-gray-300 mb-10">
+                Let's discuss how we can create a custom solution for your organization
+            </p>
+            <a href="/contact/" class="btn-primary">
+                Get in Touch
+            </a>
+        </div>
+    </div>
+</section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-charcoal text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- About -->
+                <div>
+                    <h3 class="font-mono font-bold text-xl mb-4">
+                        <span class="text-white">Data</span><span class="text-[rgb(59,130,246)]">Lab</span>
+                    </h3>
+                    <p class="text-gray-400 text-sm">
+                        Transforming businesses through expert data engineering solutions.
+                    </p>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="font-semibold mb-4">Services</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="/services/starting/" class="hover:text-white transition">Starting with Data</a></li>
+                        <li><a href="/services/scaling/" class="hover:text-white transition">Scaling Operations</a></li>
+                        <li><a href="/services/optimizing/" class="hover:text-white transition">Optimizing & Governing</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company -->
+                <div>
+                    <h4 class="font-semibold mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="/about/" class="hover:text-white transition">About Us</a></li>
+                        <li><a href="/solutions/" class="hover:text-white transition">Solutions</a></li>
+                        <li><a href="/contact/" class="hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="font-semibold mb-4">Get in Touch</h4>
+                    <p class="text-sm text-gray-400 mb-2">
+                        Ready to transform your data?
+                    </p>
+                    <a href="/contact/" class="btn-primary inline-block">
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-sm text-gray-400">
+                <p>&copy; <span data-year>2026</span> Data Lab. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

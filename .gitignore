@@ -1,0 +1,5 @@
+node_modules/
+_site/
+# Built by `npm run build` (and in CI on every push)
+assets/styles.css
+.DS_Store
