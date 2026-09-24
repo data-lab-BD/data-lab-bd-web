@@ -33,6 +33,14 @@ jobs:
           mkdir _site
           cp -r index.html 404.html about contact services solutions assets robots.txt sitemap.xml CNAME _site/
 
+      - name: Inject Web3Forms access key
+        env:
+          WEB3FORMS_ACCESS_KEY: ${{ secrets.WEB3FORMS_ACCESS_KEY }}
+        run: |
+          test -n "$WEB3FORMS_ACCESS_KEY" || { echo "WEB3FORMS_ACCESS_KEY secret is not set"; exit 1; }
+          sed -i "s/YOUR_WEB3FORMS_ACCESS_KEY/$WEB3FORMS_ACCESS_KEY/" _site/contact/index.html
+          ! grep -q YOUR_WEB3FORMS_ACCESS_KEY _site/contact/index.html
+
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

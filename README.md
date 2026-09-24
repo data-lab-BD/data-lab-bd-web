@@ -31,7 +31,7 @@ npm run serve   # http://localhost:8000
 
 ## One-time setup
 
-1. **Contact form.** Get a free access key at https://web3forms.com using `dcloudlab.bd@gmail.com`. Put it in `contact/index.html` in place of `YOUR_WEB3FORMS_ACCESS_KEY`. The key is safe to keep public.
+1. **Contact form.** Get a free access key at https://web3forms.com using `dcloudlab.bd@gmail.com`. Save it as the repo secret `WEB3FORMS_ACCESS_KEY`. The deploy workflow swaps it in for `YOUR_WEB3FORMS_ACCESS_KEY` in `contact/index.html`. The key still appears in the published page, which is expected: it can only send email to your inbox.
 2. **GitHub Pages.** Go to repo **Settings → Pages → Build and deployment → Source: GitHub Actions**. Then under **Custom domain**, enter `datalabbd.com`, save, and tick **Enforce HTTPS** once the certificate is issued.
 3. **DNS** (at your domain registrar):
 
